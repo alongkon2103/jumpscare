@@ -1,33 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This site can't be reached</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* สำหรับป้องกันแถบเลื่อน */
+            background: url('./bg1.mp4') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        /* แบบลูกเล่นสำหรับเพิ่มเนื้อหาหรือสไตล์ต่าง ๆ ในหน้าเว็บ */
+        .content {
             text-align: center;
-        }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #d93025;
+            padding: 100px;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>This site can't be reached</h1>
-        <p>The webpage you are trying to access could not be found. Please check the URL and try again.</p>
+    <div class="content">
+        <h1>Your Website Content</h1>
+        <p>This is your webpage content.</p>
     </div>
 </body>
 </html>
